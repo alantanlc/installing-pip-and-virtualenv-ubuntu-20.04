@@ -32,10 +32,12 @@ Install virtualenv using pip3:
 $ pip3 install virtualenv
 ```
 
-Create a new virtual environment. This creates a directory named `env` where relevant scripts and environment packages reside:
+Create a new virtual environment.
 ```
 $ virtualenv env
 ```
+__Note:__ This creates a directory named `env` where relevant scripts and environment packages reside:
+
 
 Activate the virtual environment:
 ```

@@ -31,13 +31,13 @@ Install virtualenv using pip3:
 $ pip3 install virtualenv
 ```
 
-Then create a new virtual environment.
+Create a new virtual environment.
 ```
 $ virtualenv env
 ```
 The command above will create a directory named `env` where scripts and environment packages reside.
 
-Then activate the virtual environment:
+Activate the virtual environment:
 ```
 $ source env/bin/activate
 ```

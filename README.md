@@ -36,8 +36,9 @@ Create a new virtual environment:
 ```
 $ virtualenv env
 ```
+This creates a directory named `env` where relevant scripts and environment packages reside. 
 
-Activate environment:
+Activate the virtual environment:
 ```
 $ source env/bin/activate
 ```

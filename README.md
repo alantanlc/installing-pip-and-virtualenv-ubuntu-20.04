@@ -1,5 +1,7 @@
 # Installing pip and virtualenv on Ubuntu 20.04 LTS
 
+Steps to install pip3 and virtualenv on Ubuntu 20.04 LTS.
+
 ## Installing pip for Python 3
 
 To install pip for Python 3 on Ubuntu 20.04, run the following commands as root or sudo user in your terminal:
@@ -25,20 +27,19 @@ Reference: [https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/](https
 
 ## Installing virtualenv via pip3
 
-Install virtualenv using pip3
+Install virtualenv using pip3:
 ```
 $ pip3 install virtualenv
 ```
 
-Reference: [https://virtualenv.pypa.io/en/latest/installation.html#via-pip](https://virtualenv.pypa.io/en/latest/installation.html#via-pip)
-
-Create a new virtual environment:
+Create a new virtual environment. This creates a directory named `env` where relevant scripts and environment packages reside:
 ```
 $ virtualenv env
 ```
-This creates a directory named `env` where relevant scripts and environment packages reside. 
 
 Activate the virtual environment:
 ```
 $ source env/bin/activate
 ```
+
+Reference: [https://virtualenv.pypa.io/en/latest/installation.html#via-pip](https://virtualenv.pypa.io/en/latest/installation.html#via-pip)

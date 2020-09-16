@@ -9,10 +9,9 @@ To install pip for Python 3 on Ubuntu 20.04, run the following commands as root 
 $ sudo apt update
 $ sudo apt install python3-pip
 ```
-
 The command above will also install all dependencies required for building Python modules.
 
-When the installation is complete, verify the installation by checking the pip version:
+... when the installation is complete, verify the installation by checking the pip version:
 ```
 $ pip3 --version
 ```
@@ -32,14 +31,13 @@ Install virtualenv using pip3:
 $ pip3 install virtualenv
 ```
 
-Create a new virtual environment.
+... then create a new virtual environment.
 ```
 $ virtualenv env
 ```
-__Note:__ This creates a directory named `env` where relevant scripts and environment packages reside:
+The command above will create a directory named `env` where scripts and environment packages reside.
 
-
-Activate the virtual environment:
+... then activate the virtual environment:
 ```
 $ source env/bin/activate
 ```

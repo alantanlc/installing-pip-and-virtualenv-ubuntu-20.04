@@ -31,3 +31,13 @@ $ pip3 install virtualenv
 ```
 
 Reference: [https://virtualenv.pypa.io/en/latest/installation.html#via-pip](https://virtualenv.pypa.io/en/latest/installation.html#via-pip)
+
+Create a new virtual environment:
+```
+$ virtualenv env
+```
+
+Activate environment:
+```
+$ source env/bin/activate
+```
